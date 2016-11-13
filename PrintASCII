@@ -1,0 +1,13 @@
+
+public class print_the_characters_to_ASCII {
+	public static void main(String[] args)
+	{
+		int num=65;
+		for (num=65;num<=90;num++)
+		{
+		char c= (char) (num);
+		System.out.println(num+"-"  +c);
+		}
+	}
+
+}
